@@ -17,4 +17,4 @@ MVN R4, R3, ROR #2 -> é realizado a operação ROR #2 em 0x0000'055f, em seguid
 portando 0x0000'055f ROR #2 (rotaciona apenas 2 bits para a direita) -> 0xc000'0157 e inserido o valor negado -> 0x3fff'fea8
              
 MVN R5, R4, RRX é realizado a operação RXX em 0x3fff'fea8, em seguida inserido o seu valor negado no registrador R5
-portanto 0x3fff'fea RRX, 0x1fff'ff54 e inserido o valor negado -> 0xe000'00ab
+portanto 0x3fff'fea RRX -> 0x1fff'ff54 e inserido o valor negado -> 0xe000'00ab
